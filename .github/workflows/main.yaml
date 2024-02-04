@@ -8,3 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo interrepo-actions-dst OK
+      - run: |
+          echo Always fails
+          exit 1
